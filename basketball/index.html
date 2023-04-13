@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/bas-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Thayang Inside</title>
+</head>
+<body>
+    <div class="grid-container">
+        <h1 class="nav">HOME</h1>
+        <h1 class="nav">TIME</h1>
+        <h1 class=nav>GUESS</h1>
+        <h1 class="point" id="point_1">0</h1>
+        <!-- <h1 class="time">00:00</h1> -->
+        <div class="time-div"> 
+            <h1 class="time" id="time">10:00</h1>            
+            <button class="time-button" id="time_minus_min" onclick="minusMin()">-1min</button>
+            <button class="time-button" id="time_plus_min" onclick="plusMin()">+1min</button>
+            <button class="time-button" id="time_minus_min" onclick="minusSec()">-1sec</button>
+            <button class="time-button" id="time_plus_min" onclick="plusSec()">+1sec</button>
+        </div>
+        
+        <h1 class="point" id="point_2">0</h1>
+        <div class="foul">
+            <h1 class="foul">FOUL</h1>
+            <h1 class="foul-count" id="foul_1">0</h1>
+            <div class="foul-button-div">
+                <button class="foul-button" id="foul_minus_1" onclick="minusFoul_1()">-1</button>
+                <button class="foul-button" id="foul_minus_1" onclick="plusFoul_1()">+1</button>
+            </div>
+        </div>
+        <div class="short-clock-div">
+            <h1 class="short-clock" id="sc">24</h1>
+            <button class="short-clock-start" onclick="startSC()">start</button>
+            <button class="short-clock-start" onclick="reset()">reset</button>
+            <button class="short-clock-stop" onclick="stopSC()">stop</button>
+        </div>
+        <div class="foul">
+            <h1 class="foul">FOUL</h1>
+            <h1 class="foul-count" id="foul_2">0</h1>
+            <div class="foul-button-div">
+                <button class="foul-button" id="foul_minus_2" onclick="minusFoul_2()">-1</button>
+                <button class="foul-button" id="foul_minus_1" onclick="plusFoul_2()">+1</button>
+            </div>
+        </div>
+
+        <button class="grid-item" id="point_plus_1" onclick="plusFunc_1()">+1</button>
+        <button class="grid-item" id="sc_plus" onclick="scPlus()">+1</button>
+        <button class="grid-item" id="point_plus_2"  onclick="plusFunc_2()">+1</button>
+        <button class="grid-item" id="point_minus_1" onclick="minusFunc_1()">-1</button>
+        <button class="grid-item" id="sc_minus" onclick="scMinus()">-1</button>
+        <button class="grid-item" id="point_minus_2" onclick="minusFunc_2()">-1</button>
+      </div>
+
+      <div class="time-start-div">
+        <button class="time-start" onclick="startTime()">START1</button>
+          <button class="time-start2" onclick="startTime2()">START2</button>
+        <button class="time-stop" id="time_stop" onclick="stopTime()">STOP</button>
+      </div>
+      
+
+      <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+
+* {
+    background-color: black;
+    margin: 13px;
+    padding: 10px;
+}
+
+.nav {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: rgb(204, 228, 248);
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+.point {
+    font-size: 200px;
+    text-align: center;
+    color: yellow;
+}
+
+.time-div {
+    text-align: center;
+    margin: 0px;
+}
+.time {
+    font-size: 150px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.time-button {
+    text-align: center;
+    background-color: rgb(204, 228, 248);
+}
+
+.foul {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.foul-count {
+    margin-bottom: 0px;
+    padding: 0px;
+    color: rgb(243, 0, 239);
+    font-size: 100px;
+}
+
+.foul-button-div {
+    margin-bottom: 0px;
+}
+.foul-button {
+    background-color: rgb(204, 228, 248);
+    margin-bottom: 0px;
+}
+
+.short-clock-div {
+    text-align: center;
+    margin: 0px;
+}
+
+.short-clock {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0, 255, 0);
+}
+
+.short-clock-start {
+    text-align: center;
+    background-color: rgb(204, 228, 248);
+}
+.short-clock-stop {
+    text-align: center;
+    background-color: rgb(204, 228, 248);
+}
+
+.time-start-div {
+    text-align: center;
+}
+
+.time-start {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(44, 92, 139);
+}
+.time-start2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(44, 139, 93);
+}
+
+.time-stop {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(139, 47, 44);
+}
+
+button {
+    border-radius: 6px;
+}
+
+button:hover {
+    cursor: pointer;
+}

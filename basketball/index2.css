@@ -1,0 +1,177 @@
+
+* {
+    background-color: black;
+    margin: 13px;
+    padding: 10px;
+}
+
+.nav {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+}
+
+.grid-container button {
+    background-color: rgb(100, 109, 117);
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: rgb(100, 109, 117);
+    font-size: 15px;
+    text-align: center;
+    /* margin: auto; */
+    /* margin-bottom: 5px; */
+    width: 40px;
+}
+
+.point-container {
+    margin: 0px;
+}
+.point-div {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+.point-div h1 {
+    margin: 0.67rem 0 0 0 ;
+}
+.point-button-div {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    justify-content: center;
+}
+.point-button-div button {
+    margin: 0px;
+    margin: 0.67rem 0 0 0 ;
+}
+.point {
+    font-size: 320px;
+    text-align: center;
+    color: yellow;
+}
+
+.time-div {
+    text-align: center;
+    margin: 0px;
+}
+.time {
+    font-size: 220px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.time-button {
+    text-align: center;
+    background-color: rgb(204, 228, 248);
+}
+
+
+.foul {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.foul-count {
+    position: relative;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: rgb(243, 0, 239);
+    background-color: transparent;
+    font-size: 150px;
+}
+.foul-button {
+    position: relative;
+    background-color: rgb(204, 228, 248);
+    margin-bottom: 0px;
+}
+
+
+.short-clock-div {
+    text-align: center;
+    margin: 0px;
+}
+.short-clock {
+    text-align: center;
+    font-size: 150px;
+    color: rgb(0, 255, 0);
+}
+
+.short-clock-start {
+    text-align: center;
+    background-color: rgb(204, 228, 248);
+}
+.short-clock-stop {
+    text-align: center;
+    background-color: rgb(204, 228, 248);
+}
+
+.time-start-div {
+    text-align: center;
+}
+
+.time-start {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(44, 92, 139);
+}
+.time-start2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(44, 139, 93);
+}
+
+.time-stop {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(139, 47, 44);
+}
+.buzzer {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(104, 139, 44);
+}
+
+button {
+    border-radius: 6px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* -------------function---------- */
+.use-container {
+    margin: 0px;
+}
+.use-div {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.use-div h1 {
+    margin: 0.3rem 0 0 0 ;
+}
+.use-button-div {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    justify-content: center;
+}
+.use-button-div button {
+
+    margin: 0.3 rem 0 0 0 ;
+}
